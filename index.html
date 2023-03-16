@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suma de matrices 2</title>
+</head>
+<body>
+    <h1>Suma de números enteros</h1>
+
+    <form id="form" method="POST" action="/resultado">
+        <label for="numero1">Número 1:</label>
+        <input
+            type="text"
+            id="numero1"
+            name="numero1"
+            pattern="[0-9]+"
+            required
+        /><br /><br />
+        <!-- <input id="numero1" name="numero1" oninput=verificarEntrada()><br> -->
+
+        <label for="numero2">Número 2:</label>
+        <input
+            type="text"
+            id="numero2"
+            name="numero2"
+            pattern="[0-9]+"
+            required
+        /><br /><br />
+        <!-- <input id="numero2" name="numero2" oninput=verificarEntrada()><br> -->
+        <!-- <button id="botonSumar" type="submit">Sumar</button> -->
+        <input id="botonSumar" type="submit" value="Sumar" />
+    </form>
+    <script>
+        // const form = document.getElementById("form");
+        // const resultDiv = document.getElementById("result");
+        // const numero1 = document.getElementById("numero1").value;
+        // const numero2 = document.getElementById("numero2").value;
+/* 
+        function validarNumeros() {
+            // let numero1 = document.getElementById("numero1").value;
+            // let numero2 = document.getElementById("numero2").value;
+            let botonSumar = document.getElementById("botonSumar");
+            if (
+                numero1.trim() === "" ||
+                numero2.trim() === "" ||
+                isNaN(numero1) ||
+                isNaN(numero2) ||
+                !Number.isInteger(Number(numero1)) ||
+                !Number.isInteger(Number(numero2))
+            ) {
+                botonSumar.disabled = true;
+            } else {
+                botonSumar.disabled = false;
+            }
+        }
+ */
+    </script>
+</body>
+</html>
